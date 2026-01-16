@@ -1,0 +1,56 @@
+[
+  {
+    "ML Model Name":"XGBoost (Ensemble)",
+    "Accuracy":0.8062,
+    "AUC":0.8432,
+    "Precision":0.6735,
+    "Recall":0.5241,
+    "F1":0.5895,
+    "MCC":0.4715
+  },
+  {
+    "ML Model Name":"Logistic Regression",
+    "Accuracy":0.8055,
+    "AUC":0.8419,
+    "Precision":0.6572,
+    "Recall":0.5588,
+    "F1":0.604,
+    "MCC":0.479
+  },
+  {
+    "ML Model Name":"Random Forest (Ensemble)",
+    "Accuracy":0.7779,
+    "AUC":0.8173,
+    "Precision":0.6048,
+    "Recall":0.4706,
+    "F1":0.5293,
+    "MCC":0.3921
+  },
+  {
+    "ML Model Name":"Naive Bayes (Gaussian)",
+    "Accuracy":0.6948,
+    "AUC":0.8074,
+    "Precision":0.4589,
+    "Recall":0.8369,
+    "F1":0.5928,
+    "MCC":0.4245
+  },
+  {
+    "ML Model Name":"kNN",
+    "Accuracy":0.7644,
+    "AUC":0.8047,
+    "Precision":0.5544,
+    "Recall":0.5722,
+    "F1":0.5632,
+    "MCC":0.402
+  },
+  {
+    "ML Model Name":"Decision Tree",
+    "Accuracy":0.7289,
+    "AUC":0.6573,
+    "Precision":0.4896,
+    "Recall":0.5053,
+    "F1":0.4974,
+    "MCC":0.3119
+  }
+]
