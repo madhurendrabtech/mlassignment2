@@ -19,12 +19,12 @@ Predict whether a telecom customer will **churn** (leave the service), using the
 - **Key features (subset):** `gender`, `SeniorCitizen`, `Partner`, `Dependents`, `tenure`, `PhoneService`, `MultipleLines`, `InternetService`, `OnlineSecurity`, `OnlineBackup`, `DeviceProtection`, `TechSupport`, `StreamingTV`, `StreamingMovies`, `Contract`, `PaperlessBilling`, `PaymentMethod`, `MonthlyCharges`, `TotalCharges`.  
 - **Cleaning highlights:** Dropped `customerID` if present; coerced `TotalCharges` to numeric and imputed missing values with the **median**; normalized/coded features through a `ColumnTransformer` (StandardScaler for numerics and One‑Hot for categoricals). 
 
-> **Note for evaluators:** The dataset meets the **minimum instance (≥500)** and **feature (≥12)** requirements. citeturn1search1
+> **Note for evaluators:** The dataset meets the **minimum instance (≥500)** and **feature (≥12)** requirements.
 
 ---
 
 ## 3) Models & Metrics
-We trained **six** classifiers on the same dataset and reported the following metrics on the hold‑out test set: **Accuracy, AUC, Precision, Recall, F1, MCC**. citeturn1search1
+We trained **six** classifiers on the same dataset and reported the following metrics on the hold‑out test set: **Accuracy, AUC, Precision, Recall, F1, MCC**. 
 
 **Models implemented**
 1. Logistic Regression  
